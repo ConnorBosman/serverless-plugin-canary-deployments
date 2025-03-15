@@ -16,7 +16,7 @@
         }
       ],
       "deploymentSettings": {
-        "type": "Linear10PercentEvery1Minute",
+        "type": "CodeDeployDefault.LambdaLinear10PercentEvery1Minute",
         "alias": "Live",
         "preTrafficHook": "preHook",
         "postTrafficHook": "postHook",

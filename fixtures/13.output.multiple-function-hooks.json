@@ -332,9 +332,9 @@
         },
         "DeploymentConfigName": {
           "Fn::Sub": [
-            "CodeDeployDefault.Lambda${ConfigName}",
+            "${ConfigName}",
             {
-              "ConfigName": "AllAtOnce"
+              "ConfigName": "CodeDeployDefault.LambdaAllAtOnce"
             }
           ]
         },
@@ -395,9 +395,9 @@
         },
         "DeploymentConfigName": {
           "Fn::Sub": [
-            "CodeDeployDefault.Lambda${ConfigName}",
+            "${ConfigName}",
             {
-              "ConfigName": "AllAtOnce"
+              "ConfigName": "CodeDeployDefault.LambdaAllAtOnce"
             }
           ]
         },

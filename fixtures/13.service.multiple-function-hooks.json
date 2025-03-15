@@ -4,7 +4,7 @@
     "hello": {
       "handler": "handler.hello",
       "deploymentSettings": {
-        "type": "AllAtOnce",
+        "type": "CodeDeployDefault.LambdaAllAtOnce",
         "alias": "Live",
         "preTrafficHook": "preHook"
       }
@@ -12,7 +12,7 @@
     "goodbye": {
       "handler": "handler.goodbye",
       "deploymentSettings": {
-        "type": "AllAtOnce",
+        "type": "CodeDeployDefault.LambdaAllAtOnce",
         "alias": "Live",
         "postTrafficHook": "postHook"
       }
